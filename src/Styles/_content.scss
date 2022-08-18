@@ -1,0 +1,520 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.intro {
+  margin-left: 15%;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10%;
+  .sideL {
+    padding: 80px 50px 80px 0;
+    h2 {
+      font-size: 80px;
+      line-height: 90px;
+      color: hsl(255, 11%, 22%);
+    }
+    p {
+      font-size: 22px;
+      color: hsl(257, 7%, 63%);
+      padding-right: 50px;
+    }
+    .mainbtn {
+      font-size: 20px;
+      margin-top: 40px;
+      padding: 10px 40px;
+      &:hover {
+        background-color: #9be3e2;
+      }
+    }
+  }
+}
+////Shorten section
+.shorten {
+  background: url("../../public/images/bg-shorten-desktop.svg") no-repeat
+    hsl(257, 27%, 26%);
+  background-size: cover;
+  padding: 45px 60px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 20;
+  .urlinput {
+    width: 75%;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: transparent;
+    margin-right: 25px;
+    outline: none;
+    color: hsl(257, 7%, 63%);
+    &:focus {
+      border: hsl(180, 66%, 49%) 3px solid;
+      padding: 12px 30px;
+    }
+  }
+  .Shortenbtn {
+    width: 20%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 40px;
+    cursor: pointer;
+    &:hover {
+      background-color: #9be3e2;
+    }
+  }
+  .error {
+    color: hsl(0, 87%, 67%);
+    margin-top: 5px;
+    margin-bottom: -20px;
+  }
+  .erorrborder {
+    border: hsl(0, 87%, 67%) 3px solid;
+  }
+}
+
+///shorten rusalts
+.ShLinks {
+  display: flex;
+  margin-top: 15px;
+  background-color: white;
+  align-items: center;
+  padding: 10px 25px;
+  z-index: 7;
+  justify-content: space-between;
+  .originalLink {
+    width: 100%;
+    font-size: 20px;
+    color: hsl(260, 8%, 14%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 70%;
+    padding-right: 10px;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: hsl(180, 66%, 49%);
+    margin-left: 30px;
+    z-index: 9;
+    p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 20vw;
+    }
+  }
+  .copyBtn {
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+  .links .copyBtn:hover {
+    background-color: #9be3e2;
+  }
+  .copiedBtn {
+    @extend .copyBtn;
+    background-color: hsl(257, 27%, 26%);
+    padding: 10px 20px;
+  }
+}
+.resultBackg {
+  background-color: #f0f1f6;
+  margin-top: -80px;
+  z-index: 5;
+  position: relative;
+  .container {
+    margin-top: 40px;
+    padding-top: 50px;
+  }
+}
+
+// advanced
+.Advanced {
+  background-color: #f0f1f6;
+  padding: 50px 0 100px 0;
+}
+.headandPra {
+  text-align: center;
+  padding: 20px 0;
+  h2 {
+    color: hsl(260, 8%, 14%);
+    font-size: 40px;
+  }
+  p {
+    color: hsl(257, 7%, 63%);
+    font-size: 18px;
+    max-width: 50%;
+    margin: 20px auto;
+    line-height: 30px;
+  }
+}
+.addetails {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+
+  .box2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .box3 {
+    margin-top: 90px;
+  }
+  .advbox {
+    max-width: 100%;
+    background-color: white;
+    padding: 45px 30px 45px 30px;
+    border-radius: 10px;
+    z-index: 10;
+    &:first-child {
+      margin-bottom: 90px;
+    }
+
+    .boxicon {
+      position: absolute;
+      margin-top: -90px;
+
+      img {
+        vertical-align: middle;
+        border-radius: inherit;
+        padding: 25px;
+        width: 100px;
+        height: auto;
+        background-color: hsl(257, 27%, 26%);
+        border-radius: 100px;
+      }
+    }
+    h3 {
+      font-size: 22px;
+      color: hsl(260, 8%, 14%);
+      margin: 20px 0;
+    }
+    p {
+      font-size: 14px !important;
+      color: hsl(257, 7%, 63%);
+      line-height: 1.75;
+    }
+  }
+}
+.lineB {
+  background-color: hsl(180, 66%, 49%);
+  height: 10px;
+  width: 60%;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+//boost
+.boost {
+  padding: 50px 0;
+  background-image: url("../../public/images/bg-boost-desktop.svg");
+  text-align: center;
+  background-color: hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    color: white;
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 35px;
+  }
+}
+
+//footer
+.footeR {
+  background-color: hsl(260, 8%, 14%);
+  padding: 50px 0;
+  .logo img {
+    filter: brightness(0) invert(1);
+  }
+  .container {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerMenu {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    th {
+      color: white;
+      padding-right: 100px;
+      padding-bottom: 25px;
+      font-weight: 700 !important;
+    }
+    td {
+      padding-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: hsl(257, 7%, 63%);
+      &:hover {
+        color: hsl(180, 66%, 49%);
+      }
+    }
+  }
+  .SocialMedia {
+    margin-left: 20px;
+    a {
+      margin-right: 20px;
+      img {
+        &:hover {
+          filter: invert(0.4);
+        }
+      }
+    }
+  }
+  .mobileFooter {
+    display: none;
+  }
+}
+
+.loading{
+  text-align: center;
+    padding: 30px 0;
+}
+@media (min-width: 1301px) {
+  .advbox {
+    max-width: 32%;
+  }
+  .intro {
+    overflow: hidden;
+  }
+  .bgshorten {
+    margin-right: -40px;
+  }
+  .shorten {
+    margin-top: -130px !important;
+  }
+
+  .Shortenbtn {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1300px) {
+  .intro {
+    margin-left: 5%;
+    overflow: hidden;
+    .sideL {
+      padding: 80px 20px 80px 0;
+    }
+  }
+
+  .bgshorten {
+    margin-right: -150px;
+  }
+  .urlinput {
+    width: 70% !important;
+  }
+  .Shortenbtn {
+    width: 25% !important;
+    padding: 15px 20px !important;
+  }
+  .shorten {
+    margin-top: -80px !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 1150px) {
+  .intro {
+    margin-left: 5%;
+
+    overflow: hidden;
+
+    .sideL {
+      padding: 80px 20px 80px 0;
+    }
+  }
+
+  .bgshorten {
+    margin-right: 0px;
+    width: 100%;
+    img {
+      width: 150%;
+      height: auto;
+    }
+  }
+  .ShLinks {
+    h2 {
+      font-size: 50px !important;
+      line-height: 60px !important;
+    }
+    p {
+      font-size: 20px !important;
+    }
+  }
+  th {
+    padding-right: 50px !important;
+    font-size: 16px !important;
+  }
+  .SocialMedia {
+    a {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 799px) {
+  .intro {
+    margin: 0 7.5%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .sideL {
+    padding: 0px !important;
+    h2 {
+      margin-top: 20px;
+      font-size: 40px !important;
+      line-height: 45px !important;
+    }
+    p {
+      padding: 20px 10px !important;
+      font-size: 18px !important;
+    }
+    button {
+      margin-top: 10px !important;
+    }
+  }
+  .bgshorten {
+    margin-right: -40px;
+
+    overflow: hidden;
+    img {
+      width: 140% !important;
+      height: auto;
+    }
+  }
+  .shorten {
+    padding: 30px 25px !important;
+    margin-top: 80px !important;
+  }
+  .urlinput {
+    width: 100% !important;
+    font-size: 18px !important;
+  }
+  .Shortenbtn {
+    margin-top: 40px;
+    width: 100% !important;
+  }
+  .error {
+    position: absolute;
+    margin-top: -100px !important;
+  }
+  .resultBackg {
+    padding-top: 95px;
+    margin-top: -120px;
+    .container{
+      padding-top: 0px;
+    }
+  }
+  .ShLinks {
+    display: block;
+    padding: 0;
+    margin-top: 25px;
+    .originalLink {
+      font-size: 17px;
+      border-bottom: thin solid hsl(0, 0%, 75%);
+      padding: 10px 15px;
+      max-width: 100%;
+    }
+    .links {
+      display: block;
+      font-size: 18px;
+      padding: 10px 15px;
+      margin-left: 0;
+      p {
+        padding-bottom: 10px;
+      }
+      .copyBtn {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+  .headandPra {
+    p {
+      max-width: 100%;
+    }
+  }
+  .addetails {
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advbox {
+    padding: 45px 20px 45px 20px !important;
+  }
+  .boxicon {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .lineB {
+    display: none;
+  }
+
+  .box2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .boostTitle {
+    font-size: 28px !important;
+  }
+  .footeR {
+    .footerMenu {
+      display: none;
+    }
+    .mobileFooter {
+      display: block;
+    }
+    .container {
+      display: block;
+      text-align: center;
+    }
+    .mobileFooter {
+      a {
+        text-decoration: none;
+        display: block;
+        padding-bottom: 10px;
+        font-size: 18px;
+        color: hsl(257, 7%, 63%);
+        &:hover {
+          color: hsl(180, 66%, 49%);
+        }
+      }
+      p {
+        color: white;
+        font-size: 20px;
+        padding-bottom: 25px;
+        font-weight: 700 !important;
+        margin-top: 3rem;
+      }
+    }
+    .SocialMedia {
+      margin-top: 3rem;
+      a {
+        display: inline;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
