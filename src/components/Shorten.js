@@ -36,13 +36,13 @@ const Shorten = () => {
 
   return (
     <>
-    <div className="container">
+    <section className="container">
     <div className="shorten">
       <input className={url.valid?"urlinput":"urlinput erorrborder"} placeholder='Shorten a link here...' onChange={(e)=>seturl({urlval:e.target.value,valid:true})}/>
         <button className="mainbtn Shortenbtn " onClick={shortBtn}>Shorten It!</button>
         {url.valid?<span></span>:<div className="error"><span><i>Please enter a valid URL.</i></span></div>}
     </div>
-  </div>
+  </section>
     <div className="resultBackg">
       <div className="container">
       <PulseLoader  className="loading" color={"#2BD0D0"} loading={loading} size={15} />

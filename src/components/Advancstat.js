@@ -2,7 +2,7 @@ import React from "react";
 
 const Advancstat = () => {
   return (
-    <div className="Advanced">
+    <section className="Advanced">
       <div className="container">
         <div className="headandPra">
           <h2>Advanced Statistics</h2>
@@ -41,7 +41,7 @@ const Advancstat = () => {
         
         
       </div>
-    </div>
+    </section>
   );
 };
 

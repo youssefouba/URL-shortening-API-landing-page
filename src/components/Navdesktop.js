@@ -2,7 +2,7 @@ import React from "react";
 
 const Navdesktop = () => {
   return (
-    <div className="navbar desktop container">
+    <navbar className="navbar desktop container">
       <div className="logo">
         <img src="images/logo.svg" alt="logo Shortly" />
       </div>
@@ -17,7 +17,7 @@ const Navdesktop = () => {
           <button className="mainbtn">Sign Up</button>
         </div>
       </div>
-    </div>
+    </navbar>
   );
 };
 

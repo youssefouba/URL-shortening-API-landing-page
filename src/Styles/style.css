@@ -251,7 +251,7 @@ body {
   padding: 80px 50px 80px 0;
 }
 
-.intro .sideL h2 {
+.intro .sideL h1 {
   font-size: 65px;
   line-height: 90px;
   color: #35323e;
@@ -673,7 +673,7 @@ body {
   .sideL {
     padding: 0px !important;
   }
-  .sideL h2 {
+  .sideL h1 {
     margin-top: 20px;
     font-size: 40px !important;
     line-height: 45px !important;
