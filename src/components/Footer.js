@@ -90,16 +90,16 @@ const Footer = () => {
         <a href="#">Contact</a>
         <div className="SocialMedia">
             <a href="#">
-              <img src="../images/icon-facebook.svg" alt="" />
+              <img src="images/icon-facebook.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../images/icon-twitter.svg" alt="" />
+              <img src="images/icon-twitter.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../images/icon-pinterest.svg" alt="" />
+              <img src="images/icon-pinterest.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../images/icon-instagram.svg" alt="" />
+              <img src="images/icon-instagram.svg" alt="" />
             </a>
           </div>
         </div>

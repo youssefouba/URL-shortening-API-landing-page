@@ -32,7 +32,7 @@ body {
 }
 ////Shorten section
 .shorten {
-  background: url("../../public/images/bg-shorten-desktop.svg") no-repeat
+  background: url("public/images/bg-shorten-desktop.svg") no-repeat
     hsl(257, 27%, 26%);
   background-size: cover;
   padding: 45px 60px;
@@ -218,7 +218,7 @@ body {
 //boost
 .boost {
   padding: 50px 0;
-  background-image: url("../../public/images/bg-boost-desktop.svg");
+  background-image: url("public/images/bg-boost-desktop.svg");
   text-align: center;
   background-color: hsl(257, 27%, 26%);
   background-repeat: no-repeat;
