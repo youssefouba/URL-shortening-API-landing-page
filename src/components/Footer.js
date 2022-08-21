@@ -60,16 +60,16 @@ const Footer = () => {
           </table>
           <div className="SocialMedia">
             <a href="#">
-              <img src="../images/icon-facebook.svg" alt="facebook" />
+              <img src="images/icon-facebook.svg" alt="facebook" />
             </a>
             <a href="#">
-              <img src="../images/icon-twitter.svg" alt="twitter" />
+              <img src="images/icon-twitter.svg" alt="twitter" />
             </a>
             <a href="#">
-              <img src="../images/icon-pinterest.svg" alt="pinterest" />
+              <img src="images/icon-pinterest.svg" alt="pinterest" />
             </a>
             <a href="#">
-              <img src="../images/icon-instagram.svg" alt="instagram" />
+              <img src="images/icon-instagram.svg" alt="instagram" />
             </a>
           </div>
         </footer>
