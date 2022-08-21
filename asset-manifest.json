@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/URL-shortening-API-landing-page/static/css/main.d3a45fa6.css",
+    "main.js": "/URL-shortening-API-landing-page/static/js/main.faf77814.js",
+    "static/js/787.164f9ada.chunk.js": "/URL-shortening-API-landing-page/static/js/787.164f9ada.chunk.js",
+    "static/media/bg-boost-desktop.svg": "/URL-shortening-API-landing-page/static/media/bg-boost-desktop.772154c9b0e451733f5e.svg",
+    "static/media/bg-shorten-desktop.svg": "/URL-shortening-API-landing-page/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
+    "index.html": "/URL-shortening-API-landing-page/index.html",
+    "main.d3a45fa6.css.map": "/URL-shortening-API-landing-page/static/css/main.d3a45fa6.css.map",
+    "main.faf77814.js.map": "/URL-shortening-API-landing-page/static/js/main.faf77814.js.map",
+    "787.164f9ada.chunk.js.map": "/URL-shortening-API-landing-page/static/js/787.164f9ada.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3a45fa6.css",
+    "static/js/main.faf77814.js"
+  ]
+}
